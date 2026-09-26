@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots_task_1_chatgpt.png, screenshots_task_1b_chatgpt.png, screenshots_task_1c_chatgpt.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,8 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
-
+I learned that protocols are like traffic rules: they make communication organized and predictable instead of chaotic.E.G HTTP/HTTPS, TCP, SSH.
 ---
 
 # 🌐 Task 2: Internet and Networking
@@ -59,7 +58,11 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+Imagine I am in Nigeria and want to access my online bookstore, **EpicReads**, which is hosted on a server in Finland. When I enter the website address in my browser, my request is broken into small units of data called **packets**. This process is called **packet switching**, and the packets can travel through different networks and routes to reach the server.
+
+The EpicReads server has an **IP address**, which works like its digital address and helps the network locate it. **TCP/IP** provides the rules for moving the data across the Internet. TCP helps ensure the packets are delivered correctly, while IP handles addressing and routing.
+
+Finally, **HTTP/HTTPS** allows my browser and the EpicReads server to communicate. HTTPS also encrypts the connection, helping protect my information while I browse and make purchases.
 
 ---
 
@@ -102,18 +105,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML
+* CSS
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* PYTHON
+* DJANGO
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* SQLite
+* MySQL
 
 ---
 
@@ -142,7 +145,11 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+1. DNS (Domain Name System) is like the internet’s phonebook. It translates human-readable domain names, such as **epicreads.com**, into IP addresses that computers use to locate servers. 
+
+2. To connect **epicreads.com** to **52.172.142.222**, an **A (Address) record** should be used because A records map a domain name to an IPv4 address. This allows users to type **epicreads.com** instead of remembering the server’s numerical IP address.
+
+DNS points to the IP, while the `:3000` port is handled separately by the application/server.
 
 ---
 
@@ -237,7 +244,7 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://lnkd.in/p/e96fVzYh
 ```
 
 ---
@@ -246,27 +253,58 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+Week 00 of my DevOps Micro Internship (DMI) with Agentic AI is complete.
 
+This week was about understanding the foundations behind how applications communicate and how users access them.
+
+🔹 ChatGPT
+I explored how to use ChatGPT as a learning assistant by creating detailed prompts that help break technical concepts down into simple, real-world explanations. One concept I explored was networking protocols.
+
+🔹 Internet & Networking
+I learned how packet switching, IP addresses, TCP/IP, and HTTP/HTTPS work together when a user accesses a website. For example, when someone in Nigeria accesses a bookstore hosted in Finland, data is broken into packets and routed across networks to reach the destination server.
+
+🔹 App Architecture
+I explored the difference between two-tier and three-tier architecture:
+* Two-tier: Frontend → Database
+* Three-tier: Frontend → Backend → Database
+I also looked at technologies such as HTML, CSS, Python, Django, SQLite, and MySQL.
+
+🔹 DNS
+I learned that DNS translates human-readable domain names into IP addresses. An A record can map a domain such as epicreads.com to an IPv4 address such as 52.172.142.222.
+
+🔹 VS Code Setup
+I set up my VS Code environment, opened the integrated terminal, and practiced basic commands while getting more comfortable working from the command line.
+
+Week 00 reminded me that DevOps isn't just about learning tools. Understanding the fundamentals underneath those tools matters.
+
+One concept at a time. One hands-on task at a time. Building the foundation.
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 4 aspirant — by Pravin Mishra. 
+
+My graded progress is public: https://lnkd.in/eRwGJhfs
+
+Start your DevOps journey: https://lnkd.in/eVAbSjUw
+Pravin Mishra
+Anjana Muthunayake
+#DMIByPravinMishra #AgenticAI #DevOps
 ---
 
 # Reflection – Week 0
 
 ### What did you find easy?
 
-Add your answer here...
-
+Being truthful and helping others, thanking people for the littlest things.
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Multi-tasking
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Time Management and commitment level.
 
 ---
 
